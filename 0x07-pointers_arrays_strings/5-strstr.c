@@ -7,8 +7,9 @@
  * @needle: the first occurrence of the substring
  *
  * Return: a pointer to the begining of the substring
- * 		or @Null if it not found.
+ *		or @Null if it not found.
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i = 0, j = 0;
